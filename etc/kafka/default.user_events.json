@@ -1,0 +1,36 @@
+{
+  "tableName": "user_events",
+  "schemaName": "default",
+  "topicName": "user_events",
+  "dataFormat": "json",
+  "key": {
+    "dataFormat": "raw",
+    "fields": [
+      {
+        "name": "user_id",
+        "type": "VARCHAR",
+        "hidden": "false"
+      }
+    ]
+  },
+  "message": {
+    "dataFormat": "json",
+    "fields": [
+      {
+        "name": "timestamp",
+        "mapping": "timestamp",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "event_name",
+        "mapping": "event_name",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "event_value",
+        "mapping": "event_value",
+        "type": "VARCHAR"
+      }
+    ]
+  }
+}
