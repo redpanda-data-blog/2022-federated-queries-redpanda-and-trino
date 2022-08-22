@@ -2,7 +2,7 @@
 
 Learn how to use Trino to run federated queries against a slowly changing data set combined with streaming data from a Redpanda topic. 
 
-Follow along with [this tutorial on the Redpanda blog](https://redpanda.com/blog/) to put this demo into action. 
+Follow along with [this tutorial on the Redpanda blog](https://redpanda.com/blog/data-lake-query-federation-tutorial) to put this demo into action. 
 
 ----------
 
